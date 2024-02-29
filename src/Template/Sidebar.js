@@ -19,13 +19,13 @@ const Sidebar = () => {
                 </div>
 
                 <div>
-                    <Link>
+                    <Link to="/">
                         <div className = "flex justify-center py-[8px] rounded-[3px] mt-[30px] hover:bg-blue-600 hover:text-white" title="Dashboard">
                             <RxDashboard className="text-[20px]" />
                         </div>
                     </Link>
 
-                    <Link>
+                    <Link to="/category-about-us">
                         <div div className = "flex justify-center py-[8px] rounded-[3px] mt-[10px] hover:bg-blue-600 hover:text-white" title="About Us">
                             <GoCommentDiscussion  className="text-[20px]"/>
                         </div>
