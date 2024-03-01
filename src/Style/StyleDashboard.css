@@ -44,6 +44,10 @@
     .title-left {
         font-size: 20px;
     }
+
+    .title-logo {
+        max-width: 450px;
+    }
 }
 
 @media (max-width:380px) {
