@@ -7,6 +7,7 @@ import Header from "./Header";
 import Dashboard from "./Dashboard";
 import CategoryAbout from "./About/CategoryAbout";
 import DataButton from "./Tools/Button/DataButton";
+import DataAbout from "./About/ChildAbout/DataAbout";
 
 const DefaultLayout = ({ children }) => {
   return(
@@ -52,6 +53,15 @@ function App() {
             element={
                 <DefaultLayout>
                     <DataButton />
+                </DefaultLayout>
+            }
+          />
+
+          <Route
+            path = "/data-about-us"
+            element={
+                <DefaultLayout>
+                    <DataAbout />
                 </DefaultLayout>
             }
           />

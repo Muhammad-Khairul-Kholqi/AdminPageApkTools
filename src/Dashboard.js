@@ -1,8 +1,8 @@
 import React from "react";
 import './Style/StyleDashboard.css'
 
-import BackImg from "./Assets/background.png"
-import LogoWhite from "./Assets/logo-white.png"
+import BackImg from "./Assets/background.png";
+import LogoWhite from "./Assets/logo-white.png";
 
 const Dashboard = () => {
     return(
