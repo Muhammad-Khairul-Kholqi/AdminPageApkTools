@@ -1,30 +1,57 @@
-import React, { useState, useEffect } from "react";
-import { Link } from "react-router-dom";
+import React, { useState } from "react";
+import { Link } from 'react-router-dom';
+import '../Style/StyleHeader.css';
+import { FaUser } from "react-icons/fa";
+import { IoMdArrowDropdown } from "react-icons/io";
+import { MdOutlineAccountCircle } from "react-icons/md";
+import { BiLogOut } from "react-icons/bi";
+import { RiAdminLine } from "react-icons/ri";
+// import Swal from 'sweetalert2';
 
 const Header = () => {
-  return (
-    <div>
-        <div className="bg-black w-full p-[20px]">
-          <div className="text-white flex justify-center">
-            <div div className = "text-start w-[700px]" >
-              <p className="text-[17px]">Welcome back,</p>
-              <h1 className="text-[25px] font-bold">Khairul Kholqi</h1>
-              <p className="mt-[10px]">Admin Control Center - Monitor, Manage, and Optimize Your System Performance</p>
-              <div className="flex gap-[10px] flex-wrap mt-[30px]">
-                <Link>
-                  <button className="bg-white text-black py-[3px] px-[10px] rounded-[3px]">About Us</button>
-                </Link>
+    const [isDropdownOpen, setDropdownOpen] = useState(false);
 
-                <Link>
-                  <button className="border-solid border-[2px] border-white black py-[1px] px-[10px] rounded-[3px] hover:bg-white hover:text-black">Get Started</button>
-                </Link>
-              </div>
+    const toggleDropdown = () => {
+        setDropdownOpen(!isDropdownOpen);
+    };
+    return (
+        <div className="container flex justify-between flex-wrap gap-[50px] px-[5%] items-center">
+            <div className="teks-header">
+                Welcome back, <br />
+                <span className="name-admin text-[25px] font-bold">Khairul Kholqi</span>
             </div>
-          </div>
+            <div className="relative">
+                <div className="flex gap-[5px] items-center cursor-pointer" onClick={toggleDropdown}>
+                    <FaUser className="icon-admin" />
+                    <p className="admin">Administrator</p>
+                    <IoMdArrowDropdown className={`transition-transform transform ${isDropdownOpen ? 'rotate-180' : ''}`}/>
+                </div>
 
+                {isDropdownOpen && (
+                    <div className="account-logout absolute top-full right-0 bg-white shadow-md rounded-md p-5 text-[15px] z-10">
+                        <ul>
+                            <li>
+                                <Link to="/data-admin">
+                                    <div className="flex items-center gap-[5px] hover:bg-blue-500 p-[5px] rounded-[5px] hover:text-white">
+                                        <RiAdminLine  className="icon-log-acc text-[17px]" />
+                                        <p>Data</p>
+                                    </div>
+                                </Link>
+                            </li>
+                            <li>
+                                <Link to="/account-admin">
+                                    <div className="flex items-center gap-[5px] hover:bg-[#1A9FA3] p-[5px] rounded-[5px] hover:text-white">
+                                        <MdOutlineAccountCircle className="icon-log-acc text-[17px]" />
+                                        <p>Account</p>
+                                    </div>
+                                </Link>
+                            </li>
+                        </ul>
+                    </div>
+                )}
+            </div>
         </div>
-    </div>
-  );
+    );
 };
 
 export default Header;
