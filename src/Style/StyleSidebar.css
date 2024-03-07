@@ -1,0 +1,151 @@
+/* @media (max-width: 500px) {
+    .navbar-nav-link p {
+        font-size: 13px;
+    }
+
+    .admin-log {
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 450px) {
+    .navbar-nav-link p {
+        font-size: 11px;
+    }
+
+    .admin-log {
+        font-size: 9px;
+    }
+}
+
+@media (max-width: 450px) {
+    .navbar-nav-link p {
+        font-size: 11px;
+    }
+
+    .admin-log {
+        font-size: 9px;
+    }
+}
+
+@media (max-width: 400px) {
+    .navbar-nav-link {
+        gap: 10px;
+    }
+
+    .navbar-log-admin {
+        gap: 20px;
+    }
+}
+
+@media (max-width: 370px) {
+    .logo {
+        width: 25px;
+    }
+
+    .navbar-nav-link p {
+        font-size: 10px;
+    }
+
+    .admin-log {
+        font-size: 8px;
+    }
+
+    .all-admin-log {
+        gap: 8px;
+    }
+} */
+
+.dashboard::before {
+    content: "Dashboard";
+    position: absolute;
+    background-color: #2563EB; 
+    color: #fff; 
+    padding: 3px;
+    margin-left: -17px;
+    margin-top: -30px;
+    border-radius: 5px; 
+    font-size: 10px; 
+    opacity: 0;
+    transition: opacity 0.3s ease-in;
+}
+
+
+.about::before {
+    content: "About";
+    position: absolute;
+    background-color: #2563EB; 
+    color: #fff; 
+    padding: 3px;
+    margin-left: -6px;
+    margin-top: -30px;
+    border-radius: 5px; 
+    font-size: 10px; 
+    opacity: 0;
+    transition: opacity 0.3s ease-in;
+}
+
+.blog::before {
+    content: "Blog";
+    position: absolute;
+    background-color: #2563EB; 
+    color: #fff; 
+    padding: 3px;
+    margin-left: -3px;
+    margin-top: -30px;
+    border-radius: 5px; 
+    font-size: 10px; 
+    opacity: 0;
+    transition: opacity 0.3s ease-in;
+}
+
+.tools::before {
+    content: "Tools";
+    position: absolute;
+    background-color: #2563EB; 
+    color: #fff; 
+    padding: 3px;
+    margin-left: -4px;
+    margin-top: -30px;
+    border-radius: 5px; 
+    font-size: 10px; 
+    opacity: 0;
+    transition: opacity 0.3s ease-in;
+}
+
+.framework::before {
+    content: "Framework";
+    position: absolute;
+    background-color: #2563EB; 
+    color: #fff; 
+    padding: 3px;
+    margin-left: -17px;
+    margin-top: -30px;
+    border-radius: 5px; 
+    font-size: 10px; 
+    opacity: 0;
+    transition: opacity 0.3s ease-in;
+}
+
+.logout::before {
+    content: "Logout";
+    position: absolute;
+    background-color: #2563EB; 
+    color: #fff; 
+    padding: 3px;
+    margin-top: -30px;
+    border-radius: 5px; 
+    font-size: 10px; 
+    opacity: 0;
+    transition: opacity 0.3s ease-in;
+}
+
+.dashboard:hover::before,
+.logout:hover::before,
+.framework:hover::before,
+.about:hover::before,
+.blog:hover::before,
+.tools:hover::before {
+    opacity: 1;
+    transition-delay: 0.2s;
+}
