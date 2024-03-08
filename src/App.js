@@ -12,8 +12,8 @@ const DefaultLayout = ({ children }) => {
       <div className="sidebar w-[60px] bg-white">
         <Sidebar />
       </div>
-      <div className="flex-1 overflow-y-auto bg-[#F0F0F0] p-4">
-        <div className="bg-white py-[10px] rounded-lg shadow-md">
+      <div className="flex-1 overflow-y-auto bg-white p-4">
+        <div className="bg-white py-[10px] rounded-lg shadow">
           <Header />
         </div>
         {/* content */}
