@@ -1,7 +1,7 @@
 .dashboard::before {
     content: "Dashboard";
     position: absolute;
-    background-color: #2563EB; 
+    background-color: gray; 
     color: #fff; 
     padding: 3px;
     margin-left: -17px;
@@ -16,7 +16,7 @@
 .about::before {
     content: "About";
     position: absolute;
-    background-color: #2563EB; 
+    background-color: orange; 
     color: #fff; 
     padding: 3px;
     margin-left: -6px;
@@ -30,7 +30,7 @@
 .blog::before {
     content: "Blog";
     position: absolute;
-    background-color: #2563EB; 
+    background-color: green; 
     color: #fff; 
     padding: 3px;
     margin-left: -3px;
@@ -58,7 +58,7 @@
 .framework::before {
     content: "Framework";
     position: absolute;
-    background-color: #2563EB; 
+    background-color: purple; 
     color: #fff; 
     padding: 3px;
     margin-left: -17px;
@@ -72,7 +72,7 @@
 .logout::before {
     content: "Logout";
     position: absolute;
-    background-color: #2563EB; 
+    background-color: red; 
     color: #fff; 
     padding: 3px;
     margin-top: -30px;

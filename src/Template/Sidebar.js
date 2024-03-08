@@ -26,35 +26,35 @@ const Sidebar = () => {
                     <ul className="flex flex-col items-center">
                         <Link>
                             <li 
-                                className="dashboard p-[8px] hover:bg-blue-600 mt-[40px] hover:text-white rounded-[3px] ease-in duration-300">
+                                className="dashboard p-[8px] hover:bg-gray-100 mt-[40px] hover:text-gray-600 rounded-[3px] ease-in duration-300">
                                 <RxDashboard className="text-[20px]" />
                             </li>
                         </Link>
 
                         <Link>
                             <li 
-                                className="about p-[8px] hover:bg-blue-600 mt-[20px] hover:text-white rounded-[3px] ease-in duration-300">
+                                className="about p-[8px] hover:bg-orange-100 mt-[20px] hover:text-orange-600 rounded-[3px] ease-in duration-300">
                                 <IoIosStarOutline className="text-[20px]" />
                             </li>
                         </Link>
 
                         <Link>
                             <li 
-                                className="blog p-[8px] hover:bg-blue-600 mt-[20px] hover:text-white rounded-[3px] ease-in duration-300">
+                                className="blog p-[8px] hover:bg-green-100 mt-[20px] hover:text-green-600 rounded-[3px] ease-in duration-300">
                                 <IoCameraOutline className="text-[20px]" />
                             </li>
                         </Link>
 
                         <Link>
                             <li 
-                                className="tools p-[8px] hover:bg-blue-600 mt-[20px] hover:text-white rounded-[3px] ease-in duration-300">
+                                className="tools p-[8px] hover:bg-blue-100 mt-[20px] hover:text-blue-600 rounded-[3px] ease-in duration-300">
                                 <VscTools className="text-[20px]" />
                             </li>
                         </Link>
 
                         <Link>
                             <li 
-                                className="framework p-[8px] hover:bg-blue-600 mt-[20px] hover:text-white rounded-[3px] ease-in duration-300">
+                                className="framework p-[8px] hover:bg-purple-100 mt-[20px] hover:text-purple-600 rounded-[3px] ease-in duration-300">
                                 <IoExtensionPuzzleOutline className="text-[20px]" />
                             </li>
                         </Link>
@@ -65,7 +65,7 @@ const Sidebar = () => {
 
                 <Link>
                     <div 
-                        className="logout flex flex-col items-center p-[8px] hover:bg-blue-600 mt-[30px] hover:text-white rounded-[3px] ease-in duration-300">
+                        className="logout flex flex-col items-center p-[8px] hover:bg-red-100 mt-[30px] hover:text-red-600 rounded-[3px] ease-in duration-300">
                         <TbLogout2 className="text-[20px]" />
                     </div>
                 </Link>
