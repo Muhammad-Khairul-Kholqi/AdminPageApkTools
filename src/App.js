@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 import Sidebar from "./Template/Sidebar";
 import Header from "./Template/Header";
-import Home from './Home';
+import Dashboard from './Dashboard';
 
 const DefaultLayout = ({ children }) => {
   return(
@@ -32,7 +32,7 @@ function App() {
                   path = "/"
                   element={
                     <DefaultLayout>
-                      <Home />
+                      <Dashboard />
                     </DefaultLayout>
                   }
               />
