@@ -5,6 +5,9 @@ import Sidebar from "./Template/Sidebar";
 import Header from "./Template/Header";
 import Dashboard from './Dashboard';
 
+// about
+import DataAbout from "./Data/About/DataAbout";
+
 const DefaultLayout = ({ children }) => {
   return(
     <div className="flex h-screen">
@@ -33,6 +36,16 @@ function App() {
                   element={
                     <DefaultLayout>
                       <Dashboard />
+                    </DefaultLayout>
+                  }
+              />
+
+              {/* about */}
+              <Route
+                  path = "/data-about"
+                  element={
+                    <DefaultLayout>
+                      <DataAbout />
                     </DefaultLayout>
                   }
               />
