@@ -15,7 +15,7 @@ const Sidebar = () => {
         <div>
             <div className = "sidebar shadow shadow-gray-400 h-screen w-[60px] overflow-auto px-[15px] fixed" id="sidebar">
                 <div className="mt-[40px]">
-                    <Link>  
+                    <Link to="/">  
                         <img src={Logo} />
                     </Link>
                 </div>
@@ -24,7 +24,7 @@ const Sidebar = () => {
 
                 <div className="flex justify-center items-center ">
                     <ul className="flex flex-col items-center">
-                        <Link>
+                        <Link to="/">
                             <li 
                                 className="dashboard p-[8px] hover:bg-gray-200 mt-[40px] hover:text-gray-700 rounded-[3px] ease-in duration-300">
                                 <RxDashboard className="text-[20px]" />
