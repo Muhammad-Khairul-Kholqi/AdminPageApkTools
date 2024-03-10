@@ -6,7 +6,9 @@ import Header from "./Template/Header";
 import Dashboard from './Dashboard';
 
 // about
-import DataAbout from "./Data/About/DataAbout";
+import CategoryAbout from "./Data/About/CategoryAbout";
+import DataAbout from "./Data/About/AboutUs/DataAbout";
+import EditAbout from "./Data/About/AboutUs/EditAbout";
 
 const DefaultLayout = ({ children }) => {
   return(
@@ -42,10 +44,28 @@ function App() {
 
               {/* about */}
               <Route
+                  path = "/category-about"
+                  element={
+                    <DefaultLayout>
+                      <CategoryAbout />
+                    </DefaultLayout>
+                  }
+              />
+
+              <Route
                   path = "/data-about"
                   element={
                     <DefaultLayout>
                       <DataAbout />
+                    </DefaultLayout>
+                  }
+              />
+
+              <Route
+                  path = "/edit-data-about"
+                  element={
+                    <DefaultLayout>
+                      <EditAbout />
                     </DefaultLayout>
                   }
               />
