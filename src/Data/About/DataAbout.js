@@ -2,8 +2,6 @@ import React from "react";
 import { Link } from "react-router-dom";
 import CardAbout from "../../Card/CardAbout";
 
-import { FaRegPenToSquare } from "react-icons/fa6";
-
 const DataAbout = () => {
     return(
         <div>
