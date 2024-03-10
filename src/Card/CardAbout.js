@@ -3,8 +3,6 @@ import { Link } from "react-router-dom";
 
 import { TbArrowUpRight } from "react-icons/tb";
 
-import DataAbout from "../Data/About/AboutUs/DataAbout";
-
 const CardAbout = () => {
     return(
         <div>
@@ -26,7 +24,7 @@ const CardAbout = () => {
                     </div>
                 </Link>
 
-                <Link>
+                <Link to="/data-visi-misi">
                     <div className="bg-white text-black border border-gray-600 w-[250px] p-[10px] hover:shadow  rounded-[5px]">
                         <div className="flex justify-between items-center flex-wrap">
                             <div>

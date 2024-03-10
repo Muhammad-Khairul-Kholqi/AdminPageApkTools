@@ -10,6 +10,10 @@ import CategoryAbout from "./Data/About/CategoryAbout";
 import DataAbout from "./Data/About/AboutUs/DataAbout";
 import EditAbout from "./Data/About/AboutUs/EditAbout";
 
+// visi misi
+import DataVisiMisi from "./Data/About/VisionMision/DataVisiMisi";
+import EditVisionMision from "./Data/About/VisionMision/EditVisionMision";
+
 const DefaultLayout = ({ children }) => {
   return(
     <div className="flex h-screen">
@@ -66,6 +70,24 @@ function App() {
                   element={
                     <DefaultLayout>
                       <EditAbout />
+                    </DefaultLayout>
+                  }
+              />
+
+              {/* visi misi */}
+              <Route
+                  path = "/data-visi-misi"
+                  element={
+                    <DefaultLayout>
+                      <DataVisiMisi />
+                    </DefaultLayout>
+                  }
+              />
+              <Route
+                  path = "/edit-data-visi-misi"
+                  element={
+                    <DefaultLayout>
+                      <EditVisionMision />
                     </DefaultLayout>
                   }
               />
