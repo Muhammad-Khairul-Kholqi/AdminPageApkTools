@@ -7,7 +7,7 @@ const CardCategoryTools = () => {
         <div>
             <div className="flex justify-center flex-wrap gap-[30px]">
                 <Link>
-                    <div className="flex justify-between items-center w-[250px] px-[10px] py-[10px] border border-black rounded-[5px] hover:scale-95 duration-500">
+                    <div className="flex justify-between items-center w-[200px] px-[10px] py-[10px] border border-black rounded-[5px] hover:scale-95 duration-500">
                         <div>
                             <p className="font-bold">Button</p>
                             <p>GC Tools</p>
@@ -19,7 +19,7 @@ const CardCategoryTools = () => {
                 </Link>
 
                 <Link>
-                    <div className="flex justify-between items-center w-[250px] px-[10px] py-[10px] border border-black rounded-[5px] hover:scale-95 duration-500">
+                    <div className="flex justify-between items-center w-[200px] px-[10px] py-[10px] border border-black rounded-[5px] hover:scale-95 duration-500">
                         <div>
                             <p className="font-bold">Form</p>
                             <p>GC Tools</p>
@@ -31,7 +31,7 @@ const CardCategoryTools = () => {
                 </Link>
 
                 <Link>
-                    <div className="flex justify-between items-center w-[250px] px-[10px] py-[10px] border border-black rounded-[5px] hover:scale-95 duration-500">
+                    <div className="flex justify-between items-center w-[200px] px-[10px] py-[10px] border border-black rounded-[5px] hover:scale-95 duration-500">
                         <div>
                             <p className="font-bold">Navbar</p>
                             <p>GC Tools</p>
@@ -43,7 +43,7 @@ const CardCategoryTools = () => {
                 </Link>
 
                 <Link>
-                    <div className="flex justify-between items-center w-[250px] px-[10px] py-[10px] border border-black rounded-[5px] hover:scale-95 duration-500">
+                    <div className="flex justify-between items-center w-[200px] px-[10px] py-[10px] border border-black rounded-[5px] hover:scale-95 duration-500">
                         <div>
                             <p className="font-bold">Card</p>
                             <p>GC Tools</p>
@@ -55,7 +55,7 @@ const CardCategoryTools = () => {
                 </Link>
 
                 <Link>
-                    <div className="flex justify-between items-center w-[250px] px-[10px] py-[10px] border border-black rounded-[5px] hover:scale-95 duration-500">
+                    <div className="flex justify-between items-center w-[200px] px-[10px] py-[10px] border border-black rounded-[5px] hover:scale-95 duration-500">
                         <div>
                             <p className="font-bold">Dark Mode</p>
                             <p>GC Tools</p>
@@ -67,7 +67,7 @@ const CardCategoryTools = () => {
                 </Link>
 
                 <Link>
-                    <div className="flex justify-between items-center w-[250px] px-[10px] py-[10px] border border-black rounded-[5px] hover:scale-95 duration-500">
+                    <div className="flex justify-between items-center w-[200px] px-[10px] py-[10px] border border-black rounded-[5px] hover:scale-95 duration-500">
                         <div>
                             <p className="font-bold">Form Login</p>
                             <p>GC Tools</p>
@@ -79,7 +79,7 @@ const CardCategoryTools = () => {
                 </Link>
 
                 <Link>
-                    <div className="flex justify-between items-center w-[250px] px-[10px] py-[10px] border border-black rounded-[5px] hover:scale-95 duration-500">
+                    <div className="flex justify-between items-center w-[200px] px-[10px] py-[10px] border border-black rounded-[5px] hover:scale-95 duration-500">
                         <div>
                             <p className="font-bold">Input</p>
                             <p>GC Tools</p>
@@ -91,7 +91,7 @@ const CardCategoryTools = () => {
                 </Link>
 
                 <Link>
-                    <div className="flex justify-between items-center w-[250px] px-[10px] py-[10px] border border-black rounded-[5px] hover:scale-95 duration-500">
+                    <div className="flex justify-between items-center w-[200px] px-[10px] py-[10px] border border-black rounded-[5px] hover:scale-95 duration-500">
                         <div>
                             <p className="font-bold">Loaders</p>
                             <p>GC Tools</p>
@@ -103,7 +103,7 @@ const CardCategoryTools = () => {
                 </Link>
 
                 <Link>
-                    <div className="flex justify-between items-center w-[250px] px-[10px] py-[10px] border border-black rounded-[5px] hover:scale-95 duration-500">
+                    <div className="flex justify-between items-center w-[200px] px-[10px] py-[10px] border border-black rounded-[5px] hover:scale-95 duration-500">
                         <div>
                             <p className="font-bold">DOM Js</p>
                             <p>GC Tools</p>
