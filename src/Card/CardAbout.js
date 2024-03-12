@@ -41,7 +41,7 @@ const CardAbout = () => {
                     </div>
                 </Link>
 
-                <Link>
+                <Link to="/data-contact">
                     <div className="bg-white text-black border border-gray-600 w-[250px] p-[10px] hover:shadow  rounded-[5px]">
                         <div className="flex justify-between items-center flex-wrap">
                             <div>

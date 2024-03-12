@@ -59,7 +59,7 @@ const EditVisionMision = () => {
         <h1 className="text-center font-bold text-[20px] mb-[20px]">Edit Data Visi Misi</h1>
         <form>
           <div className="mt-[15px]">
-            <label htmlFor="desc">vision:</label>
+            <label htmlFor="desc">vision:</label> 
             <ReactQuill id="desc" className="mt-[15px] bg-white"
               value={editorContent}
               onChange={handleChange}

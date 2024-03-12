@@ -14,6 +14,10 @@ import EditAbout from "./Data/About/AboutUs/EditAbout";
 import DataVisiMisi from "./Data/About/VisionMision/DataVisiMisi";
 import EditVisionMision from "./Data/About/VisionMision/EditVisionMision";
 
+// contact
+import DataContact from "./Data/About/Contact/DataContact";
+import EditContact from "./Data/About/Contact/EditContact";
+
 const DefaultLayout = ({ children }) => {
   return(
     <div className="flex h-screen">
@@ -88,6 +92,24 @@ function App() {
                   element={
                     <DefaultLayout>
                       <EditVisionMision />
+                    </DefaultLayout>
+                  }
+              />
+
+              {/* contact */}
+              <Route
+                  path = "/data-contact"
+                  element={
+                    <DefaultLayout>
+                      <DataContact />
+                    </DefaultLayout>
+                  }
+              />
+              <Route
+                  path = "/edit-data-contact"
+                  element={
+                    <DefaultLayout>
+                      <EditContact />
                     </DefaultLayout>
                   }
               />
