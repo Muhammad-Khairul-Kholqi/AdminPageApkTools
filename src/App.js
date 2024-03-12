@@ -26,6 +26,11 @@ import DataFaq from "./Data/Blog/FAQ/DataFaq";
 import AddDataFaq from "./Data/Blog/FAQ/AddDataFaq";
 import EditFaq from "./Data/Blog/FAQ/EditFaq";
 
+// learning
+import DataLearning from "./Data/Blog/Learning/DataLearning";
+import AddDataLearning from "./Data/Blog/Learning/AddLearning";
+import EditDataLearning from "./Data/Blog/Learning/EditLearning";
+
 const DefaultLayout = ({ children }) => {
   return(
     <div className="flex h-screen">
@@ -155,6 +160,33 @@ function App() {
                   element={
                     <DefaultLayout>
                       <EditFaq />
+                    </DefaultLayout>
+                  }
+              />
+
+              <Route
+                  path = "/data-learning"
+                  element={
+                    <DefaultLayout>
+                      <DataLearning />
+                    </DefaultLayout>
+                  }
+              />
+
+              <Route
+                  path = "/add-data-learning"
+                  element={
+                    <DefaultLayout>
+                      <AddDataLearning />
+                    </DefaultLayout>
+                  }
+              />
+
+              <Route
+                  path = "/edit-data-learning"
+                  element={
+                    <DefaultLayout>
+                      <EditDataLearning />
                     </DefaultLayout>
                   }
               />

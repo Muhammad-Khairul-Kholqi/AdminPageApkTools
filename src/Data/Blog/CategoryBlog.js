@@ -30,7 +30,7 @@ const CategoryBlog = () => {
                             <p>Learning</p>
                             <p>10</p>
                         </div>
-                        <Link>
+                        <Link to="/data-learning">
                             <button className="bg-black hover:bg-gray-900 text-white px-[10px] py-[5px] rounded-[3px]">See Details</button>
                         </Link>
                     </div>
