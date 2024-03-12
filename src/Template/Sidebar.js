@@ -45,7 +45,7 @@ const Sidebar = () => {
                             </li>
                         </Link>
 
-                        <Link>
+                        <Link to="/category-tools">
                             <li 
                                 className="tools p-[8px] hover:bg-gray-200 mt-[20px] hover:text-gray-700 rounded-[3px] ease-in duration-300">
                                 <VscTools className="text-[20px]" />

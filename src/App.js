@@ -31,6 +31,9 @@ import DataLearning from "./Data/Blog/Learning/DataLearning";
 import AddDataLearning from "./Data/Blog/Learning/AddLearning";
 import EditDataLearning from "./Data/Blog/Learning/EditLearning";
 
+// tools
+import CategoryTools from "./Data/Tools/CategoryTools";
+
 const DefaultLayout = ({ children }) => {
   return(
     <div className="flex h-screen">
@@ -187,6 +190,16 @@ function App() {
                   element={
                     <DefaultLayout>
                       <EditDataLearning />
+                    </DefaultLayout>
+                  }
+              />
+
+              {/* tools */}
+              <Route
+                  path = "/category-tools"
+                  element={
+                    <DefaultLayout>
+                      <CategoryTools />
                     </DefaultLayout>
                   }
               />
