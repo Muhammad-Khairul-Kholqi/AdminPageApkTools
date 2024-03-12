@@ -38,7 +38,7 @@ const Sidebar = () => {
                             </li>
                         </Link>
 
-                        <Link>
+                        <Link to="/category-blog">
                             <li 
                                 className="blog p-[8px] hover:bg-gray-200 mt-[20px] hover:text-gray-700 rounded-[3px] ease-in duration-300">
                                 <IoCameraOutline className="text-[20px]" />

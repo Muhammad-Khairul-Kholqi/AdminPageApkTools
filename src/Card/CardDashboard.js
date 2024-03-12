@@ -28,7 +28,7 @@ const CardDashboard = () => {
                 <Link>
                     <div className="w-[250px] bg-[#E8E8E8] p-[10px] rounded-[10px] hover:scale-105 duration-500 hover:bg-black hover:text-white">
                         <div className="flex justify-between flex-wrap">
-                            <p className="font-bold">Blog</p>
+                            <p className="font-bold">Tools</p>
                             <div className="bg-gray-300 p-[5px] rounded-[50%]">
                                 <TbArrowUpRight className="text-[20px]" />
                             </div>
@@ -45,7 +45,7 @@ const CardDashboard = () => {
                 <Link>
                     <div className="w-[250px] bg-[#E8E8E8] p-[10px] rounded-[10px] hover:scale-105 duration-500 hover:bg-black hover:text-white">
                         <div className="flex justify-between flex-wrap">
-                            <p className="font-bold">Blog</p>
+                            <p className="font-bold">Framework</p>
                             <div className="bg-gray-300 p-[5px] rounded-[50%]">
                                 <TbArrowUpRight className="text-[20px]" />
                             </div>

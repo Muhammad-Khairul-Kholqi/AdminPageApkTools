@@ -18,6 +18,9 @@ import EditVisionMision from "./Data/About/VisionMision/EditVisionMision";
 import DataContact from "./Data/About/Contact/DataContact";
 import EditContact from "./Data/About/Contact/EditContact";
 
+// blog
+import CategoryBlog from "./Data/Blog/CategoryBlog";
+
 const DefaultLayout = ({ children }) => {
   return(
     <div className="flex h-screen">
@@ -110,6 +113,16 @@ function App() {
                   element={
                     <DefaultLayout>
                       <EditContact />
+                    </DefaultLayout>
+                  }
+              />
+
+              {/* blog */}
+              <Route
+                  path = "/category-blog"
+                  element={
+                    <DefaultLayout>
+                      <CategoryBlog />
                     </DefaultLayout>
                   }
               />
