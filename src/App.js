@@ -21,6 +21,11 @@ import EditContact from "./Data/About/Contact/EditContact";
 // blog
 import CategoryBlog from "./Data/Blog/CategoryBlog";
 
+// faq
+import DataFaq from "./Data/Blog/FAQ/DataFaq";
+import AddDataFaq from "./Data/Blog/FAQ/AddDataFaq";
+import EditFaq from "./Data/Blog/FAQ/EditFaq";
+
 const DefaultLayout = ({ children }) => {
   return(
     <div className="flex h-screen">
@@ -123,6 +128,33 @@ function App() {
                   element={
                     <DefaultLayout>
                       <CategoryBlog />
+                    </DefaultLayout>
+                  }
+              />
+
+              <Route
+                  path = "/data-faq"
+                  element={
+                    <DefaultLayout>
+                      <DataFaq />
+                    </DefaultLayout>
+                  }
+              />
+
+              <Route
+                  path = "/add-data-faq"
+                  element={
+                    <DefaultLayout>
+                      <AddDataFaq />
+                    </DefaultLayout>
+                  }
+              />
+
+              <Route
+                  path = "/edit-data-faq"
+                  element={
+                    <DefaultLayout>
+                      <EditFaq />
                     </DefaultLayout>
                   }
               />

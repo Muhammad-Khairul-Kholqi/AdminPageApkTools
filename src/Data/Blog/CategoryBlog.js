@@ -4,8 +4,7 @@ import { Link } from "react-router-dom";
 const CategoryBlog = () => {
     return(
         <div>
-            <div className = "bg-black mt-[20px] rounded-[10px] px-[10%] py-[30px] text-center text-white" 
-                    data-aos="flip-down" data-aos-duration="1300">
+            <div className = "bg-black mt-[20px] rounded-[10px] px-[10%] py-[30px] text-center text-white">
                 <h1 className = "title-header text-[40px] leading-10 font-bold font-roboto-slab tracking-[2px]" > Blogs </h1>
                 <p className="description mt-[20px] text-[18px] font-inter">
                     Access and settings FAQ and learning resources
@@ -19,7 +18,7 @@ const CategoryBlog = () => {
                             <p>FAQ</p>
                             <p>3</p>
                         </div>
-                        <Link>
+                        <Link to="/data-faq">
                             <button className="bg-black hover:bg-gray-900 text-white px-[10px] py-[5px] rounded-[3px]">See Details</button>
                         </Link>
                     </div>
