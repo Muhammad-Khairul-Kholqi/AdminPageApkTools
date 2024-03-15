@@ -34,6 +34,9 @@ import EditDataLearning from "./Data/Blog/Learning/EditLearning";
 // tools
 import CategoryTools from "./Data/Tools/CategoryTools";
 
+// framework
+import CategoryFramework from "./Data/Framework/CategoryFramework";
+
 const DefaultLayout = ({ children }) => {
   return(
     <div className="flex h-screen">
@@ -200,6 +203,16 @@ function App() {
                   element={
                     <DefaultLayout>
                       <CategoryTools />
+                    </DefaultLayout>
+                  }
+              />
+
+              {/* framework */}
+              <Route
+                  path = "/category-framework"
+                  element={
+                    <DefaultLayout>
+                      <CategoryFramework />
                     </DefaultLayout>
                   }
               />
